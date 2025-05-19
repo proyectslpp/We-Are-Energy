@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        /* Reset y variables globales */
         :root {
             --primary-color: #00a2ff;
             --secondary-color: #00e676;
@@ -130,7 +129,6 @@
             background: var(--primary-color);
         }
 
-        /* Hero Section */
         #hero {
             background-color: var(--dark-color);
             position: relative;
@@ -158,7 +156,6 @@
             color: rgba(255, 255, 255, 0.8);
         }
 
-        /* Valor Sections */
         .valor-section {
             position: relative;
             overflow: hidden;
@@ -208,7 +205,6 @@
             z-index: 1;
         }
 
-        /* Valor-specific styles */
         #innovacion {
             background: linear-gradient(to bottom, var(--dark-color), #061a2b);
         }
@@ -274,7 +270,6 @@
             border-color: var(--respect-color);
         }
 
-        /* Final Section */
         #cierre {
             background: linear-gradient(to bottom, #051630, var(--dark-color));
             text-align: center;
@@ -295,14 +290,13 @@
             opacity: 0.7;
         }
 
-        /* SVG Icon Styling */
         .svg-icon {
             width: 120px;
             height: 120px;
             margin-bottom: 2rem;
         }
 
-        /* Animation Styles */
+
         .fade-in {
             opacity: 0;
             transform: translateY(20px);
@@ -314,7 +308,6 @@
             transform: translateY(0);
         }
 
-        /* Code Block Styling */
         .code-block {
             background: rgba(0, 0, 0, 0.3);
             border-radius: 10px;
@@ -372,7 +365,6 @@
     </style>
 </head>
 <body>
-    <!-- Hero Section -->
     <section id="hero">
         <div id="particles-js"></div>
         <div class="container flex-center">
@@ -384,14 +376,12 @@
         </div>
     </section>
 
-    <!-- Innovación Section -->
     <section id="innovacion" class="valor-section">
         <div class="circle-bg"></div>
         <div class="container">
             <div class="valor-content">
                 <h2 class="fade-in">INNOVACIÓN</h2>
                 
-                <!-- SVG Icon for Innovation -->
                 <svg class="svg-icon fade-in" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="250" cy="250" r="200" fill="none" stroke="#00c2ff" stroke-width="10" stroke-dasharray="15,10" />
                     <circle cx="250" cy="250" r="100" fill="none" stroke="#00c2ff" stroke-width="8" />
@@ -422,14 +412,13 @@
         </div>
     </section>
 
-    <!-- Confianza Section -->
+
     <section id="confianza" class="valor-section">
         <div class="circle-bg"></div>
         <div class="container">
             <div class="valor-content">
                 <h2 class="fade-in">CONFIANZA</h2>
-                
-                <!-- SVG Icon for Trust -->
+
                 <svg class="svg-icon fade-in" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
                     <path d="M250 100 L160 170 L160 330 L250 400 L340 330 L340 170 Z" fill="none" stroke="#005eff" stroke-width="12" />
                     <path d="M250 180 L250 320" stroke="#005eff" stroke-width="10" stroke-linecap="round" />
@@ -460,14 +449,12 @@
         </div>
     </section>
 
-    <!-- Proactividad Section -->
     <section id="proactividad" class="valor-section">
         <div class="circle-bg"></div>
         <div class="container">
             <div class="valor-content">
                 <h2 class="fade-in">PROACTIVIDAD</h2>
                 
-                <!-- SVG Icon for Proactivity -->
                 <svg class="svg-icon fade-in" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
                     <path d="M100 350 L180 280 L250 320 L320 230 L400 150" fill="none" stroke="#00d170" stroke-width="10" stroke-linecap="round" />
                     <circle cx="100" cy="350" r="20" fill="#00d170" />
@@ -498,14 +485,12 @@
         </div>
     </section>
 
-    <!-- Flexibilidad Section -->
     <section id="flexibilidad" class="valor-section">
         <div class="circle-bg"></div>
         <div class="container">
             <div class="valor-content">
                 <h2 class="fade-in">FLEXIBILIDAD</h2>
                 
-                <!-- SVG Icon for Flexibility -->
                 <svg class="svg-icon fade-in" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
                     <path d="M250 100 C150 150, 350 200, 250 250 C150 300, 350 350, 250 400" fill="none" stroke="#00a0b0" stroke-width="10" stroke-linecap="round" />
                     <circle cx="250" cy="100" r="15" fill="#00a0b0" />
@@ -536,14 +521,12 @@
         </div>
     </section>
 
-    <!-- Respeto Section -->
     <section id="respeto" class="valor-section">
         <div class="circle-bg"></div>
         <div class="container">
             <div class="valor-content">
                 <h2 class="fade-in">RESPETO</h2>
                 
-                <!-- SVG Icon for Respect -->
                 <svg class="svg-icon fade-in" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="250" cy="250" r="150" fill="none" stroke="#3678ff" stroke-width="10" />
                     <path d="M250 100 C300 180, 350 200, 400 250 C350 300, 300 320, 250 400 C200 320, 150 300, 100 250 C150 200, 200 180, 250 100Z" fill="none" stroke="#3678ff" stroke-width="6" />
@@ -575,7 +558,6 @@
         </div>
     </section>
 
-    <!-- Final Section -->
     <section id="cierre">
         <div class="container flex-center">
             <h2 class="fade-in">CONCLUSIÓN</h2>
@@ -583,20 +565,14 @@
             
             <div class="final-message fade-in">Yo soy energía. Mis ideas pueden transformar el mundo.</div>
             
-            <div class="fade-in">
-                <a href="#" class="btn" id="video-btn">Ver mi video</a>
-            </div>
-            
             <div class="footer fade-in">
                 <p>Luis © 2025 | Concurso We Are Energy | Mayo 2025</p>
             </div>
         </div>
     </section>
 
-    <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script>
-        // Particles.js Config for Hero Section
         document.addEventListener('DOMContentLoaded', function() {
             particlesJS('particles-js', {
                 "particles": {
@@ -688,9 +664,7 @@
             });
         });
 
-        // Intersection Observer for Scroll Animations
         document.addEventListener('DOMContentLoaded', function() {
-            // Fade-in animations
             const fadeElements = document.querySelectorAll('.fade-in');
             const valorCards = document.querySelectorAll('.valor-card');
             
@@ -710,7 +684,6 @@
                 observer.observe(el);
             });
             
-            // Smooth scrolling for anchor links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function(e) {
                     e.preventDefault();
@@ -726,15 +699,6 @@
                     }
                 });
             });
-            
-            // Video button event
-            const videoBtn = document.getElementById('video-btn');
-            if (videoBtn) {
-                videoBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    alert('¡Aquí se reproduciría tu video! Puedes enlazar a un archivo MP4 o a YouTube.');
-                });
-            }
         });
     </script>
 </body>
